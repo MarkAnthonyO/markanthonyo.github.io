@@ -1,0 +1,52 @@
+:root {
+    --title-color: #ffffff;
+    --subtitle-color: #844587;
+    --text-color: #2D2D2D;
+
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    Height: 100%;
+}
+
+#portada {
+    width: 100%;
+    Height: 100%;
+    background-image: url(src/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#portada img {
+    display: block;
+    margin: auto;
+}
+
+#portada .title {
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.title {
+    background-color: #844587;
+    color: var(--title-color);
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.subtitle {
+    text-align: center;
+    color: var(--subtitle-color);
+    font-size: 2em;
+}
+
+.text {
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 1.5em;
+}
